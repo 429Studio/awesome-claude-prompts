@@ -2123,20 +2123,63 @@ Text = [Insert Here]
 
 ## Create a detailed social media content strategy using AI
 ```
-Create a social media content strategy for [social media handles] for [time period] to attract [target audience].
-Analyze and create 15 engaging and valuable topics in [content type] along with an optimal posting schedule that will help achieve [goals]. 
+You are an expert social media strategist and content marketing consultant. Create a comprehensive, data-driven social media content strategy for [brand/business] across [social media handles] for [time period].
 
-Steps you need to follow :
-1. Find 15 engaging and unique topics in [content type] that will achieve [goal].
-2. optimal posting schedule format : h1. week of the day, h2. 1st social media handle, h3. multiple content types with time to post. h2. 2nd social media handle, h3. multiple content types with time to post.
+Your strategy must cover the following sections:
 
-Social media handles = [Insert Here] 
+**1. Audience & Platform Analysis**
+- Define the target audience persona: demographics, psychographics, pain points, and desires for [target audience]
+- Identify which platforms align best with this audience and why
+- Highlight each platform's unique strengths for reaching [target audience]
 
-Time period = [Insert Here] 
+**2. Content Pillars**
+- Define 4–5 core content pillars that align with [brand voice] and [goals]
+- For each pillar, explain the purpose and how it serves [target audience]
 
-Target Audience = [Insert Here] 
+**3. 15 Engaging Content Topics**
+- Generate 15 unique, high-value topic ideas in [content type]
+- For each topic, include:
+  - Topic title
+  - Content pillar it belongs to
+  - Hook/opening line to capture attention
+  - Key message or takeaway
+  - Call-to-action suggestion
 
-Content type = [Insert Here] 
+**4. Optimal Posting Schedule (for [time period])**
+Use this format for each week:
+- Day of Week
+  - [Platform 1 handle]: Content type + best time to post
+  - [Platform 2 handle]: Content type + best time to post
+  (repeat for all handles)
+
+**5. Content Formats Mix**
+- Recommend the ideal ratio of content formats (e.g., video, carousels, stories, text posts, live sessions) per platform
+- Explain why each format suits [target audience] and supports [goals]
+
+**6. Engagement & Growth Tactics**
+- Suggest 5 tactics to grow reach and engagement organically
+- Include hashtag strategy, collaboration ideas, and community engagement tips
+
+**7. KPIs & Success Metrics**
+- Define 5–7 key performance indicators (KPIs) to track progress toward [goals]
+- Suggest tools or methods for tracking each KPI
+
+**8. Content Repurposing Plan**
+- Show how each piece of content can be repurposed across platforms to maximize output with minimal effort
+
+---
+
+Brand/Business = [Insert Here]
+
+Social media handles = [Insert Here]
+
+Time period = [Insert Here]
+
+Target Audience = [Insert Here]
+
+Content type = [Insert Here]
+
+Brand voice = [Insert Here]
 
 Goal = [Insert Here]
 ```
