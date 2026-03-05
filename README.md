@@ -26,6 +26,8 @@ We hope you find these prompts useful and have fun using Claude!
 
 ## Contents
 - [Claude Code Coding Prompt](claudecode/LinusTorvalds.md)
+- [Claude Code Permission Mode Guide](claudecode/PermissionMode.md)
+- [Claude Code Plan Mode Guide](claudecode/PlanMode.md)
 - [Summarize this PDF document (official example)](#summarize-this-pdf-document-official-example)
 - [Explain Python Code (official example)](#explain-python-code-official-example)
 - [Practice Spanish Vocab (official example)](#practice-spanish-vocab-official-example)
