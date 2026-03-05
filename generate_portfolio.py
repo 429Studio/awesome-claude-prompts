@@ -1,6 +1,6 @@
 """
 Event Photo Portfolio - PPTX Generator
-Minimal & Elegant style, 10 slides
+Minimal & Elegant style, 11 slides (5 client galleries)
 """
 
 from pptx import Presentation
@@ -144,64 +144,88 @@ add_photo_placeholder(slide, Inches(7.8), Inches(1.2), Inches(4.5), Inches(5),
 slide = prs.slides.add_slide(blank_layout)
 set_bg(slide, BG_DARK)
 
-add_text(slide, "WHAT I COVER",
+add_text(slide, "OUR CLIENTS",
          Inches(0.8), Inches(0.5), Inches(10), Inches(0.7),
          font_size=28, color=ACCENT, bold=True, alignment=PP_ALIGN.CENTER)
 
 add_divider(slide, Inches(5.8), Inches(1.25), Inches(1.5))
 
-services = [
-    ("Weddings & Social Events", "Engagements, receptions,\nbirthdays, anniversaries"),
-    ("Corporate & Conferences", "Summits, product launches,\ntrade shows, galas"),
-    ("Concerts & Entertainment", "Live music, festivals,\ntheater, nightlife events"),
-    ("Personal & Lifestyle", "Portraits, brand shoots,\nspecial occasions"),
+clients = [
+    ("Brother Printer", "Product launches, corporate\nactivations & brand events"),
+    ("CSA", "Community events,\nassociation gatherings"),
+    ("GY Beauty", "Beauty & lifestyle,\nbrand campaigns"),
+    ("iQiYi", "Entertainment events,\npress conferences & premieres"),
+    ("Zontes", "Automotive launches,\ntest rides & brand activations"),
 ]
 
-for i, (title, desc) in enumerate(services):
-    col = i % 4
-    x = Inches(0.6 + col * 3.15)
-    y = Inches(2.0)
+# Row 1: first 3 clients
+for i, (title, desc) in enumerate(clients[:3]):
+    x = Inches(0.6 + i * 4.1)
+    y = Inches(1.8)
 
-    # Icon placeholder
-    add_photo_placeholder(slide, x, y, Inches(2.8), Inches(2.8),
-                          f"[{title} Photo]")
+    add_photo_placeholder(slide, x, y, Inches(3.6), Inches(2.4),
+                          f"[{title} — Best Shot]")
 
     add_text(slide, title,
-             x, y + Inches(3.0), Inches(2.8), Inches(0.5),
+             x, y + Inches(2.5), Inches(3.6), Inches(0.5),
              font_size=13, color=WHITE, bold=True, alignment=PP_ALIGN.CENTER)
 
     add_text(slide, desc,
-             x, y + Inches(3.4), Inches(2.8), Inches(0.8),
+             x, y + Inches(2.9), Inches(3.6), Inches(0.8),
              font_size=11, color=GREY, alignment=PP_ALIGN.CENTER)
 
+# Row 2: last 2 clients (centered)
+for i, (title, desc) in enumerate(clients[3:]):
+    x = Inches(2.65 + i * 4.1)
+    y = Inches(5.0)
+
+    add_photo_placeholder(slide, x, y, Inches(3.6), Inches(1.6),
+                          f"[{title} — Best Shot]")
+
+    add_text(slide, title,
+             x, y + Inches(1.7), Inches(3.6), Inches(0.4),
+             font_size=13, color=WHITE, bold=True, alignment=PP_ALIGN.CENTER)
+
 
 # ═══════════════════════════════════════════════════════════
-# SLIDE 4-7 — Gallery Spreads (4 slides, 2-3 photos each)
+# SLIDE 4-8 — Client Gallery Spreads (5 slides, 3 photos each)
 # ═══════════════════════════════════════════════════════════
 gallery_slides = [
-    ("WEDDINGS & SOCIAL", [
-        "[Wedding Photo 1]", "[Wedding Photo 2]", "[Wedding Photo 3]"
-    ]),
-    ("CORPORATE & CONFERENCES", [
-        "[Corporate Photo 1]", "[Corporate Photo 2]", "[Corporate Photo 3]"
-    ]),
-    ("CONCERTS & ENTERTAINMENT", [
-        "[Concert Photo 1]", "[Concert Photo 2]", "[Concert Photo 3]"
-    ]),
-    ("LIFESTYLE & PORTRAITS", [
-        "[Lifestyle Photo 1]", "[Lifestyle Photo 2]", "[Lifestyle Photo 3]"
-    ]),
+    ("BROTHER PRINTER", "Product Launch & Corporate Activation",
+     "https://drive.google.com/drive/folders/1sOueZ7NsDPiKXDulcd_UDOpesV7UUR5B",
+     ["[Brother Printer — Hero Shot]", "[Brother Printer — Detail/Product]", "[Brother Printer — Crowd/Atmosphere]"]),
+    ("CSA", "Community & Association Event Coverage",
+     "https://drive.google.com/drive/folders/1PV_iCE1deKmjcUXjrkHLvJ5P7o-WbJsS",
+     ["[CSA — Hero Shot]", "[CSA — Keynote/Stage]", "[CSA — Guests/Networking]"]),
+    ("GY BEAUTY", "Beauty & Lifestyle Brand Campaign",
+     "https://drive.google.com/drive/folders/1ZavvJBnAlAE3VYEUXad9YDab_MNtB8qD",
+     ["[GY Beauty — Hero Shot]", "[GY Beauty — Product/Setup]", "[GY Beauty — Candid/BTS]"]),
+    ("iQIYI", "Entertainment Premiere & Press Conference",
+     "https://drive.google.com/drive/folders/1YZFnxhfwNfhpQB7a-UHRkbVwSxcJqUdd",
+     ["[iQiYi — Hero Shot]", "[iQiYi — Stage/Red Carpet]", "[iQiYi — Press/Media]"]),
+    ("ZONTES", "Automotive Launch & Brand Activation",
+     "https://drive.google.com/drive/folders/1m-A4gOP2gv-XInpkl_Z28aHM7exuRRpd",
+     ["[Zontes — Hero Shot]", "[Zontes — Product/Bike]", "[Zontes — Action/Crowd]"]),
 ]
 
-for title, photos in gallery_slides:
+for title, subtitle, drive_link, photos in gallery_slides:
     slide = prs.slides.add_slide(blank_layout)
     set_bg(slide, BG_DARK)
 
     add_text(slide, title,
-             Inches(0.8), Inches(0.4), Inches(11), Inches(0.6),
+             Inches(0.8), Inches(0.25), Inches(11), Inches(0.6),
              font_size=22, color=ACCENT, bold=True)
 
-    add_divider(slide, Inches(0.8), Inches(1.05), Inches(1.2))
+    add_text(slide, subtitle,
+             Inches(0.8), Inches(0.75), Inches(6), Inches(0.4),
+             font_size=12, color=GREY)
+
+    add_divider(slide, Inches(0.8), Inches(1.15), Inches(1.2))
+
+    # Google Drive reference (small, bottom-right)
+    add_text(slide, f"Photos: {drive_link}",
+             Inches(5), Inches(7.05), Inches(7.5), Inches(0.35),
+             font_size=8, color=RGBColor(0x55, 0x55, 0x55), alignment=PP_ALIGN.RIGHT)
 
     # 3-photo layout: one large left, two stacked right
     add_photo_placeholder(slide, Inches(0.8), Inches(1.4), Inches(7), Inches(5.5),
