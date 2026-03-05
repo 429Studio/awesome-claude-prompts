@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CC785C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4956A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8B89A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC785C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad1)" />
+
+  <!-- Connection lines (arcs between nodes) -->
+  <g stroke="#F5E6DC" stroke-width="2.5" fill="none" opacity="0.85">
+    <!-- Center to top-left -->
+    <path d="M50,50 Q30,30 22,22" stroke-linecap="round"/>
+    <!-- Center to top-right -->
+    <path d="M50,50 Q70,30 78,22" stroke-linecap="round"/>
+    <!-- Center to bottom-left -->
+    <path d="M50,50 Q30,70 22,78" stroke-linecap="round"/>
+    <!-- Center to bottom-right -->
+    <path d="M50,50 Q70,70 78,78" stroke-linecap="round"/>
+    <!-- Center to top -->
+    <path d="M50,50 Q50,28 50,18" stroke-linecap="round"/>
+    <!-- Center to bottom -->
+    <path d="M50,50 Q50,72 50,82" stroke-linecap="round"/>
+    <!-- Cross connections -->
+    <path d="M22,22 Q50,15 78,22" stroke-linecap="round" opacity="0.5"/>
+    <path d="M22,78 Q50,85 78,78" stroke-linecap="round" opacity="0.5"/>
+    <path d="M18,50 Q25,36 22,22" stroke-linecap="round" opacity="0.4"/>
+    <path d="M82,50 Q75,36 78,22" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Outer nodes -->
+  <circle cx="22" cy="22" r="6" fill="#F5E6DC" opacity="0.95"/>
+  <circle cx="78" cy="22" r="6" fill="#F5E6DC" opacity="0.95"/>
+  <circle cx="22" cy="78" r="6" fill="#F5E6DC" opacity="0.95"/>
+  <circle cx="78" cy="78" r="6" fill="#F5E6DC" opacity="0.95"/>
+  <circle cx="50" cy="18" r="5" fill="#F5E6DC" opacity="0.8"/>
+  <circle cx="50" cy="82" r="5" fill="#F5E6DC" opacity="0.8"/>
+
+  <!-- Center node (larger, highlighted) -->
+  <circle cx="50" cy="50" r="10" fill="#F5E6DC" opacity="0.98"/>
+  <circle cx="50" cy="50" r="6" fill="url(#grad2)"/>
+</svg>
