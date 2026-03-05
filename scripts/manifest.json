@@ -1,0 +1,552 @@
+{
+  "AI Resume（with Claude Artifacts)": {
+    "category": "writing",
+    "tags": ["resume", "react", "artifacts", "template"],
+    "author": "云中江树 (yzfly)",
+    "model": "Claude 3.5",
+    "has_image": true
+  },
+  "system prompt and tools from claude code": {
+    "category": "technical",
+    "tags": ["raw-data", "reference", "claude-code"],
+    "source": "https://github.com/Aider-AI/aider/issues/3362#issuecomment-2686026303"
+  },
+  "Summarize this PDF document (official example)": {
+    "category": "official-examples",
+    "tags": ["pdf", "summarization", "official"]
+  },
+  "Explain Python Code (official example)": {
+    "category": "official-examples",
+    "tags": ["python", "code-explanation", "official"]
+  },
+  "Practice Spanish Vocab (official example)": {
+    "category": "official-examples",
+    "tags": ["language-learning", "spanish", "official", "interactive"]
+  },
+  "AutoGPT": {
+    "category": "prompt-engineering",
+    "tags": ["autonomous", "multi-step", "template"]
+  },
+  "Converts GPT-4-style prompts to Claude3 prompts": {
+    "category": "prompt-engineering",
+    "tags": ["prompt-conversion", "gpt4", "template"]
+  },
+  "Control output format (JSON mode)": {
+    "category": "prompt-engineering",
+    "tags": ["json", "output-format", "structured"],
+    "source": "https://docs.anthropic.com/claude/docs/control-output-format"
+  },
+  "MetaPrompt (official example)": {
+    "category": "prompt-engineering",
+    "tags": ["metaprompt", "official", "prompt-generation"],
+    "source": "https://docs.anthropic.com/claude/docs/helper-metaprompt-experimental"
+  },
+  "Meta Prompt": {
+    "category": "prompt-engineering",
+    "tags": ["metaprompt", "crispe", "framework"]
+  },
+  "MBTI Personality Analysis": {
+    "category": "education",
+    "tags": ["role-play", "personality", "analysis"],
+    "source": "https://github.com/yzfly/LangGPT",
+    "author": "YZFly"
+  },
+  "Roleplaying": {
+    "category": "creative",
+    "tags": ["role-play", "interactive"]
+  },
+  "DAN for Claude 2": {
+    "category": "creative",
+    "tags": ["jailbreak", "experimental"],
+    "model": "Claude 2"
+  },
+  "Expert Editor": {
+    "category": "writing",
+    "tags": ["editing", "writing-assistant", "grammar"]
+  },
+  "Smart Dev": {
+    "category": "technical",
+    "tags": ["coding", "code-review", "full-stack", "complex-workflow"]
+  },
+  "Prompts For Github Project": {
+    "category": "technical",
+    "tags": ["github", "open-source", "project-management", "multi-step"]
+  },
+  "Claude with Functions": {
+    "category": "technical",
+    "tags": ["function-calling", "structured-output"],
+    "source": "https://github.com/anthropics/anthropic-cookbook/blob/main/function_calling/function_calling.ipynb"
+  },
+  "Claude-Instant Jailbreak": {
+    "category": "creative",
+    "tags": ["jailbreak", "experimental"],
+    "model": "Claude Instant"
+  },
+  "Test the maximum length of the claude output": {
+    "category": "creative",
+    "tags": ["experimental", "testing"]
+  },
+  "AI Tutor: Mr. Ranedeer": {
+    "category": "education",
+    "tags": ["tutoring", "personalization", "long-template", "learning-style"],
+    "source": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+    "author": "JushBJJ"
+  },
+  "Write Tweets Like You": {
+    "category": "content-creation",
+    "tags": ["social-media", "twitter", "fill-in-blank", "style-replication"]
+  },
+  "Connect Several Documents in Claude": {
+    "category": "content-creation",
+    "tags": ["documents", "summarization", "multi-step"]
+  },
+  "Analyze Top Companies Using Claude": {
+    "category": "business",
+    "tags": ["competitor-analysis", "strategy", "fill-in-blank"]
+  },
+  "Billboard Ideas Using Claude": {
+    "category": "marketing",
+    "tags": ["advertising", "outdoor", "fill-in-blank", "brainstorming"]
+  },
+  "Create Campaigns Using AI": {
+    "category": "marketing",
+    "tags": ["campaigns", "marketing", "fill-in-blank"]
+  },
+  "Create High Ticket Offer": {
+    "category": "business",
+    "tags": ["sales", "pricing", "offer-creation"]
+  },
+  "Analyze Decisions Using AI": {
+    "category": "business",
+    "tags": ["decision-making", "analysis", "fill-in-blank"]
+  },
+  "Write Feedback Emails Using AI": {
+    "category": "marketing",
+    "tags": ["email", "feedback", "fill-in-blank"]
+  },
+  "Add urgency to the ad copy using AI": {
+    "category": "marketing",
+    "tags": ["copywriting", "ads", "urgency", "fill-in-blank"]
+  },
+  "Use Awareness - Action Framework Using AI": {
+    "category": "marketing",
+    "tags": ["framework", "email", "marketing", "fill-in-blank"]
+  },
+  "Drive Interest From Social Media Using AI": {
+    "category": "marketing",
+    "tags": ["social-media", "fill-in-blank", "engagement"]
+  },
+  "Create Personalized Subject Lines Using AI": {
+    "category": "marketing",
+    "tags": ["email", "subject-lines", "personalization", "fill-in-blank"]
+  },
+  "Feedback reminder email using AI": {
+    "category": "marketing",
+    "tags": ["email", "feedback", "reminder", "fill-in-blank"]
+  },
+  "Write Blog Post sections using AI": {
+    "category": "marketing",
+    "tags": ["blog", "content", "fill-in-blank"]
+  },
+  "Structure your blog post using AI": {
+    "category": "marketing",
+    "tags": ["blog", "structure", "fill-in-blank"]
+  },
+  "Write Cold DMs using AI": {
+    "category": "marketing",
+    "tags": ["social-media", "copywriting", "fill-in-blank", "scarcity"]
+  },
+  "Highlight Unique Value Proposition in emails": {
+    "category": "marketing",
+    "tags": ["email", "copywriting", "value-proposition", "fill-in-blank"]
+  },
+  "Use Star Story Solution framework for email marketing": {
+    "category": "marketing",
+    "tags": ["email", "framework", "star-story-solution", "fill-in-blank"]
+  },
+  "Better decision making using AI": {
+    "category": "business",
+    "tags": ["decision-making", "strategy", "fill-in-blank"]
+  },
+  "Brainstorm Influencer Marketing ideas using AI": {
+    "category": "marketing",
+    "tags": ["influencer", "social-media", "brainstorming", "fill-in-blank"]
+  },
+  "Implement \"Picture-Promise-Prove-Push\" framework in your email marketing": {
+    "category": "marketing",
+    "tags": ["email", "framework", "picture-promise-prove-push", "fill-in-blank"]
+  },
+  "Get multiple perspectives for your problem": {
+    "category": "business",
+    "tags": ["decision-making", "perspectives", "fill-in-blank"]
+  },
+  "Create pricing options for your product line": {
+    "category": "business",
+    "tags": ["pricing", "strategy", "fill-in-blank"]
+  },
+  "Learn complex topics simply": {
+    "category": "education",
+    "tags": ["learning", "eli11", "simplification", "fill-in-blank"]
+  },
+  "Create a detailed social media content strategy using AI": {
+    "category": "marketing",
+    "tags": ["social-media", "strategy", "content-planning", "fill-in-blank"]
+  },
+  "Replicate any writing style": {
+    "category": "content-creation",
+    "tags": ["style-replication", "writing", "fill-in-blank"]
+  },
+  "Use emotions to your advantage in marketing": {
+    "category": "marketing",
+    "tags": ["copywriting", "emotion", "psychology", "fill-in-blank"]
+  },
+  "Find career pitfalls beforhand": {
+    "category": "business",
+    "tags": ["career", "planning", "fill-in-blank"]
+  },
+  "Build resumes using AI": {
+    "category": "business",
+    "tags": ["resume", "career", "fill-in-blank"]
+  },
+  "Turn any piece of text into any writing style": {
+    "category": "content-creation",
+    "tags": ["style-replication", "writing", "fill-in-blank"]
+  },
+  "Ideas to earn more money with your skills": {
+    "category": "business",
+    "tags": ["income", "skills", "brainstorming", "fill-in-blank"]
+  },
+  "Earn with your skils and a budget": {
+    "category": "business",
+    "tags": ["income", "skills", "budget", "fill-in-blank"],
+    "duplicate_of": "Ideas to earn more money with your skills"
+  },
+  "Analyze pros/cons of a decision": {
+    "category": "business",
+    "tags": ["decision-making", "analysis", "pros-cons", "fill-in-blank"]
+  },
+  "Improve your business model": {
+    "category": "business",
+    "tags": ["business-model", "strategy", "fill-in-blank"]
+  },
+  "Translate ad copy into other languages": {
+    "category": "marketing",
+    "tags": ["translation", "ads", "copywriting", "fill-in-blank"]
+  },
+  "Write update emails about a project using AI": {
+    "category": "marketing",
+    "tags": ["email", "project-management", "fill-in-blank"]
+  },
+  "Upsell using email marketing": {
+    "category": "marketing",
+    "tags": ["email", "upsell", "fill-in-blank"]
+  },
+  "Get more referrals using AI ideas": {
+    "category": "marketing",
+    "tags": ["referrals", "growth", "brainstorming", "fill-in-blank"]
+  },
+  "Answer product objections and win customers using AI": {
+    "category": "marketing",
+    "tags": ["sales", "objections", "copywriting", "fill-in-blank"]
+  },
+  "Get best meta descriptions for your website": {
+    "category": "marketing",
+    "tags": ["seo", "meta-description", "fill-in-blank"]
+  },
+  "Generate long tail keywords for your website": {
+    "category": "marketing",
+    "tags": ["seo", "keywords", "fill-in-blank"]
+  },
+  "Increase organic traffic for your website": {
+    "category": "marketing",
+    "tags": ["seo", "traffic", "fill-in-blank"]
+  },
+  "Create taglines for your product": {
+    "category": "marketing",
+    "tags": ["copywriting", "taglines", "branding", "fill-in-blank"]
+  },
+  "Ambient Advertising for your product": {
+    "category": "marketing",
+    "tags": ["advertising", "ambient", "creative", "fill-in-blank"]
+  },
+  "Design your business card": {
+    "category": "business",
+    "tags": ["design", "branding", "fill-in-blank"]
+  },
+  "Brainstorm affiliate revenue ideas for your product": {
+    "category": "marketing",
+    "tags": ["affiliate", "revenue", "brainstorming", "fill-in-blank"]
+  },
+  "Repurpose your content for other platforms": {
+    "category": "marketing",
+    "tags": ["content-repurposing", "social-media", "fill-in-blank"]
+  },
+  "Brainstorm sales strategies for your business": {
+    "category": "marketing",
+    "tags": ["sales", "strategy", "brainstorming", "fill-in-blank"]
+  },
+  "Analyse startup problems and solutions": {
+    "category": "business",
+    "tags": ["startup", "problem-solving", "fill-in-blank"]
+  },
+  "Improve employee retention using AI": {
+    "category": "business",
+    "tags": ["hr", "retention", "fill-in-blank"]
+  },
+  "Write press release using AI": {
+    "category": "marketing",
+    "tags": ["pr", "press-release", "fill-in-blank"]
+  },
+  "Write cold emails using AI": {
+    "category": "marketing",
+    "tags": ["email", "cold-outreach", "fill-in-blank"]
+  },
+  "Write landing page descriptions using AI": {
+    "category": "marketing",
+    "tags": ["copywriting", "landing-page", "fill-in-blank"]
+  },
+  "Assign tasks to the right skilled employee": {
+    "category": "business",
+    "tags": ["hr", "delegation", "fill-in-blank"]
+  },
+  "Apply book frameworks for your business": {
+    "category": "business",
+    "tags": ["strategy", "books", "frameworks", "fill-in-blank"]
+  },
+  "Design the user experience for your website.": {
+    "category": "business",
+    "tags": ["ux", "design", "fill-in-blank"]
+  },
+  "Test Claude skills in Interviews": {
+    "category": "business",
+    "tags": ["interviews", "evaluation", "fill-in-blank"]
+  },
+  "Find what your customer wants": {
+    "category": "business",
+    "tags": ["customer-research", "marketing", "fill-in-blank"]
+  },
+  "Create Claude Prompts using Claude": {
+    "category": "prompt-engineering",
+    "tags": ["prompt-generation", "meta", "fill-in-blank"]
+  },
+  "Perform competitor analysis using AI": {
+    "category": "business",
+    "tags": ["competitor-analysis", "strategy", "fill-in-blank"]
+  },
+  "Generate rebranding strategies using AI": {
+    "category": "marketing",
+    "tags": ["branding", "strategy", "fill-in-blank"]
+  },
+  "Generate ad script and ad creative ideas using Ai": {
+    "category": "marketing",
+    "tags": ["ads", "script", "creative", "fill-in-blank"]
+  },
+  "Generate giveaway ideas using Claude": {
+    "category": "marketing",
+    "tags": ["giveaway", "social-media", "brainstorming", "fill-in-blank"]
+  },
+  "Write launch speeches fro your new business": {
+    "category": "marketing",
+    "tags": ["speech", "launch", "fill-in-blank"]
+  },
+  "Write thank you letters for your customers using AI": {
+    "category": "marketing",
+    "tags": ["email", "customer-retention", "fill-in-blank"]
+  },
+  "Get solutions from a CEO to your problems": {
+    "category": "business",
+    "tags": ["role-play", "strategy", "decision-making", "fill-in-blank"]
+  },
+  "Create guest lectures using AI": {
+    "category": "business",
+    "tags": ["education", "speaking", "fill-in-blank"]
+  },
+  "Create interview challenges using AI": {
+    "category": "business",
+    "tags": ["hr", "interviews", "fill-in-blank"]
+  },
+  "Apply Blue Ocean Strategy to your business": {
+    "category": "business",
+    "tags": ["strategy", "blue-ocean", "fill-in-blank"]
+  },
+  "Expand product lineups to attract more customers using AI": {
+    "category": "business",
+    "tags": ["product", "strategy", "fill-in-blank"]
+  },
+  "Increase your product value for more retention": {
+    "category": "business",
+    "tags": ["product", "retention", "value", "fill-in-blank"]
+  },
+  "Business ideas for your skill": {
+    "category": "business",
+    "tags": ["brainstorming", "entrepreneurship", "fill-in-blank"]
+  },
+  "Write replies to your reviews using Claude": {
+    "category": "business",
+    "tags": ["customer-service", "reviews", "fill-in-blank"]
+  },
+  "Create metaphors using Claude": {
+    "category": "creative",
+    "tags": ["metaphors", "writing", "fill-in-blank"]
+  },
+  "Generate high-fidelity structural metaphors using Claude": {
+    "category": "writing",
+    "tags": ["metaphors", "writing", "advanced"]
+  },
+  "Plan your trip using AI": {
+    "category": "business",
+    "tags": ["travel", "planning", "fill-in-blank"]
+  },
+  "Make Claude your writing assistant": {
+    "category": "content-creation",
+    "tags": ["writing-assistant", "general", "fill-in-blank"]
+  },
+  "Handle sales calls using AI": {
+    "category": "business",
+    "tags": ["sales", "calls", "fill-in-blank"]
+  },
+  "Write follow up emails using AI": {
+    "category": "business",
+    "tags": ["email", "follow-up", "fill-in-blank"]
+  },
+  "Write speeches that motivate using AI": {
+    "category": "content-creation",
+    "tags": ["speech", "motivation", "fill-in-blank"]
+  },
+  "Write product descriptions using AI": {
+    "category": "content-creation",
+    "tags": ["copywriting", "product", "fill-in-blank"]
+  },
+  "Apply Reciprocity Bias using AI": {
+    "category": "marketing",
+    "tags": ["psychology", "marketing", "bias", "fill-in-blank"]
+  },
+  "Create marketing Strategies using AI": {
+    "category": "marketing",
+    "tags": ["strategy", "marketing", "fill-in-blank"]
+  },
+  "Use Claude to generate \"about\" Section": {
+    "category": "marketing",
+    "tags": ["copywriting", "about-page", "fill-in-blank"]
+  },
+  "Use Claude to create a business model": {
+    "category": "business",
+    "tags": ["business-model", "strategy", "fill-in-blank"]
+  },
+  "Find amazing domain names for your business using Claude": {
+    "category": "business",
+    "tags": ["domain", "branding", "fill-in-blank"]
+  },
+  "Use AI to create SEO keywords.": {
+    "category": "marketing",
+    "tags": ["seo", "keywords", "fill-in-blank"]
+  },
+  "Plan your stratergies like Alex Hormozi": {
+    "category": "business",
+    "tags": ["strategy", "business", "fill-in-blank"]
+  },
+  "Generate questions to recruit top talent using Claude": {
+    "category": "business",
+    "tags": ["hr", "recruitment", "interviews", "fill-in-blank"]
+  },
+  "Save time writing youTube scripts with AI": {
+    "category": "marketing",
+    "tags": ["youtube", "script", "video", "fill-in-blank"]
+  },
+  "Use AI to get instagram story ideas": {
+    "category": "marketing",
+    "tags": ["instagram", "social-media", "ideas", "fill-in-blank"]
+  },
+  "Write sales copy with the desired tone to your product": {
+    "category": "marketing",
+    "tags": ["copywriting", "sales", "tone", "fill-in-blank"]
+  },
+  "Use AIDA to convert customers with Claude": {
+    "category": "marketing",
+    "tags": ["aida", "framework", "copywriting", "fill-in-blank"]
+  },
+  "Create impactful marketing campaigns": {
+    "category": "marketing",
+    "tags": ["campaigns", "marketing", "fill-in-blank"]
+  },
+  "Find the best way to connect with your customers": {
+    "category": "marketing",
+    "tags": ["customer-engagement", "marketing", "fill-in-blank"]
+  },
+  "Use Claude to find CTA ideas": {
+    "category": "marketing",
+    "tags": ["cta", "copywriting", "fill-in-blank"]
+  },
+  "Generate Unique Product Title Ideas using Claude": {
+    "category": "marketing",
+    "tags": ["product", "titles", "branding", "fill-in-blank"]
+  },
+  "Build a schedule plan": {
+    "category": "business",
+    "tags": ["productivity", "planning", "fill-in-blank"]
+  },
+  "Consult Steve Jobs and Elon Musk": {
+    "category": "business",
+    "tags": ["role-play", "strategy", "brainstorming", "fill-in-blank"]
+  },
+  "Write terms and conditions to your product using Claude": {
+    "category": "business",
+    "tags": ["legal", "terms", "fill-in-blank"]
+  },
+  "Find how to recruit top talent using Claude": {
+    "category": "business",
+    "tags": ["hr", "recruitment", "fill-in-blank"]
+  },
+  "Create a social media plan using Claude": {
+    "category": "marketing",
+    "tags": ["social-media", "planning", "fill-in-blank"]
+  },
+  "Convert text to tables using Claude": {
+    "category": "writing",
+    "tags": ["tables", "formatting", "fill-in-blank"]
+  },
+  "Make Claude Write Like You": {
+    "category": "content-creation",
+    "tags": ["style-replication", "writing", "fill-in-blank"]
+  },
+  "Get GIFs in Claude": {
+    "category": "content-creation",
+    "tags": ["gifs", "media", "fill-in-blank"]
+  },
+  "Use Claude to write your blogs": {
+    "category": "content-creation",
+    "tags": ["blog", "writing", "fill-in-blank"]
+  },
+  "Know more about your customers using Claude": {
+    "category": "business",
+    "tags": ["customer-research", "strategy", "fill-in-blank"]
+  },
+  "Use Claude to write python scripts": {
+    "category": "technical",
+    "tags": ["python", "code-generation", "fill-in-blank"]
+  },
+  "Learn things much faster using AI": {
+    "category": "education",
+    "tags": ["learning", "eli11", "fill-in-blank"]
+  },
+  "Generate Email Subject Lines": {
+    "category": "marketing",
+    "tags": ["email", "subject-lines", "fill-in-blank"]
+  },
+  "Simulate A Job Interview": {
+    "category": "education",
+    "tags": ["interviews", "career", "role-play", "fill-in-blank"]
+  },
+  "Learn a new topic using AI": {
+    "category": "education",
+    "tags": ["learning", "multi-step", "fill-in-blank"]
+  },
+  "Use Claude to answer frequently asked questions": {
+    "category": "business",
+    "tags": ["faq", "customer-service", "fill-in-blank"]
+  },
+  "Cite Your Sources": {
+    "category": "writing",
+    "tags": ["research", "citations", "fill-in-blank"]
+  }
+}

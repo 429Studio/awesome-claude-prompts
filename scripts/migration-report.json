@@ -1,0 +1,1480 @@
+[
+  {
+    "title": "AI Resume（with Claude Artifacts)",
+    "slug": "ai-resume-with-claude-artifacts",
+    "category": "writing",
+    "output": "prompts/writing/ai-resume-with-claude-artifacts.md",
+    "source_lines": [
+      164,
+      398
+    ],
+    "warnings": []
+  },
+  {
+    "title": "system prompt and tools from claude code",
+    "slug": "system-prompt-and-tools-from-claude-code",
+    "category": "technical",
+    "output": "prompts/technical/system-prompt-and-tools-from-claude-code.md",
+    "source_lines": [
+      399,
+      830
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Summarize this PDF document (official example)",
+    "slug": "summarize-this-pdf-document-official-example",
+    "category": "official-examples",
+    "output": "prompts/official-examples/summarize-this-pdf-document-official-example.md",
+    "source_lines": [
+      831,
+      837
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Explain Python Code (official example)",
+    "slug": "explain-python-code-official-example",
+    "category": "official-examples",
+    "output": "prompts/official-examples/explain-python-code-official-example.md",
+    "source_lines": [
+      838,
+      845
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Practice Spanish Vocab (official example)",
+    "slug": "practice-spanish-vocab-official-example",
+    "category": "official-examples",
+    "output": "prompts/official-examples/practice-spanish-vocab-official-example.md",
+    "source_lines": [
+      846,
+      856
+    ],
+    "warnings": []
+  },
+  {
+    "title": "AutoGPT",
+    "slug": "autogpt",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/autogpt.md",
+    "source_lines": [
+      857,
+      921
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Converts GPT-4-style prompts to Claude3 prompts",
+    "slug": "converts-gpt-4-style-prompts-to-claude3-prompts",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/converts-gpt-4-style-prompts-to-claude3-prompts.md",
+    "source_lines": [
+      922,
+      949
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Control output format (JSON mode)",
+    "slug": "control-output-format-json-mode",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/control-output-format-json-mode.md",
+    "source_lines": [
+      950,
+      955
+    ],
+    "warnings": [
+      "no code block found"
+    ]
+  },
+  {
+    "title": "MetaPrompt (official example)",
+    "slug": "metaprompt-official-example",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/metaprompt-official-example.md",
+    "source_lines": [
+      956,
+      1422
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Meta Prompt",
+    "slug": "meta-prompt",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/meta-prompt.md",
+    "source_lines": [
+      1423,
+      1513
+    ],
+    "warnings": []
+  },
+  {
+    "title": "MBTI Personality Analysis",
+    "slug": "mbti-personality-analysis",
+    "category": "education",
+    "output": "prompts/education/mbti-personality-analysis.md",
+    "source_lines": [
+      1514,
+      1551
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Roleplaying",
+    "slug": "roleplaying",
+    "category": "creative",
+    "output": "prompts/creative/roleplaying.md",
+    "source_lines": [
+      1552,
+      1565
+    ],
+    "warnings": []
+  },
+  {
+    "title": "DAN for Claude 2",
+    "slug": "dan-for-claude-2",
+    "category": "creative",
+    "output": "prompts/creative/dan-for-claude-2.md",
+    "source_lines": [
+      1566,
+      1574
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Expert Editor",
+    "slug": "expert-editor",
+    "category": "writing",
+    "output": "prompts/writing/expert-editor.md",
+    "source_lines": [
+      1575,
+      1579
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Smart Dev",
+    "slug": "smart-dev",
+    "category": "technical",
+    "output": "prompts/technical/smart-dev.md",
+    "source_lines": [
+      1580,
+      1614
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Prompts For Github Project",
+    "slug": "prompts-for-github-project",
+    "category": "technical",
+    "output": "prompts/technical/prompts-for-github-project.md",
+    "source_lines": [
+      1615,
+      1625
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Claude with Functions",
+    "slug": "claude-with-functions",
+    "category": "technical",
+    "output": "prompts/technical/claude-with-functions.md",
+    "source_lines": [
+      1626,
+      1636
+    ],
+    "warnings": [
+      "no code block found"
+    ]
+  },
+  {
+    "title": "Claude-Instant Jailbreak",
+    "slug": "claude-instant-jailbreak",
+    "category": "creative",
+    "output": "prompts/creative/claude-instant-jailbreak.md",
+    "source_lines": [
+      1637,
+      1644
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Test the maximum length of the claude output",
+    "slug": "test-the-maximum-length-of-the-claude-output",
+    "category": "creative",
+    "output": "prompts/creative/test-the-maximum-length-of-the-claude-output.md",
+    "source_lines": [
+      1645,
+      1652
+    ],
+    "warnings": []
+  },
+  {
+    "title": "AI Tutor: Mr. Ranedeer",
+    "slug": "ai-tutor-mr-ranedeer",
+    "category": "education",
+    "output": "prompts/education/ai-tutor-mr-ranedeer.md",
+    "source_lines": [
+      1653,
+      1902
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write Tweets Like You",
+    "slug": "write-tweets-like-you",
+    "category": "content-creation",
+    "output": "prompts/content-creation/write-tweets-like-you.md",
+    "source_lines": [
+      1903,
+      1911
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Connect Several Documents in Claude",
+    "slug": "connect-several-documents-in-claude",
+    "category": "content-creation",
+    "output": "prompts/content-creation/connect-several-documents-in-claude.md",
+    "source_lines": [
+      1912,
+      1920
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Analyze Top Companies Using Claude",
+    "slug": "analyze-top-companies-using-claude",
+    "category": "business",
+    "output": "prompts/business/analyze-top-companies-using-claude.md",
+    "source_lines": [
+      1921,
+      1929
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Billboard Ideas Using Claude",
+    "slug": "billboard-ideas-using-claude",
+    "category": "marketing",
+    "output": "prompts/marketing/billboard-ideas-using-claude.md",
+    "source_lines": [
+      1930,
+      1936
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create Campaigns Using AI",
+    "slug": "create-campaigns-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/create-campaigns-using-ai.md",
+    "source_lines": [
+      1937,
+      1945
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create High Ticket Offer",
+    "slug": "create-high-ticket-offer",
+    "category": "business",
+    "output": "prompts/business/create-high-ticket-offer.md",
+    "source_lines": [
+      1946,
+      1952
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Analyze Decisions Using AI",
+    "slug": "analyze-decisions-using-ai",
+    "category": "business",
+    "output": "prompts/business/analyze-decisions-using-ai.md",
+    "source_lines": [
+      1953,
+      1959
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write Feedback Emails Using AI",
+    "slug": "write-feedback-emails-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-feedback-emails-using-ai.md",
+    "source_lines": [
+      1960,
+      1968
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Add urgency to the ad copy using AI",
+    "slug": "add-urgency-to-the-ad-copy-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/add-urgency-to-the-ad-copy-using-ai.md",
+    "source_lines": [
+      1969,
+      1975
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Awareness - Action Framework Using AI",
+    "slug": "use-awareness-action-framework-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/use-awareness-action-framework-using-ai.md",
+    "source_lines": [
+      1976,
+      1985
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Drive Interest From Social Media Using AI",
+    "slug": "drive-interest-from-social-media-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/drive-interest-from-social-media-using-ai.md",
+    "source_lines": [
+      1986,
+      1992
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create Personalized Subject Lines Using AI",
+    "slug": "create-personalized-subject-lines-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/create-personalized-subject-lines-using-ai.md",
+    "source_lines": [
+      1993,
+      2001
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Feedback reminder email using AI",
+    "slug": "feedback-reminder-email-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/feedback-reminder-email-using-ai.md",
+    "source_lines": [
+      2002,
+      2010
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write Blog Post sections using AI",
+    "slug": "write-blog-post-sections-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-blog-post-sections-using-ai.md",
+    "source_lines": [
+      2011,
+      2019
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Structure your blog post using AI",
+    "slug": "structure-your-blog-post-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/structure-your-blog-post-using-ai.md",
+    "source_lines": [
+      2020,
+      2026
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write Cold DMs using AI",
+    "slug": "write-cold-dms-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-cold-dms-using-ai.md",
+    "source_lines": [
+      2027,
+      2035
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Highlight Unique Value Proposition in emails",
+    "slug": "highlight-unique-value-proposition-in-emails",
+    "category": "marketing",
+    "output": "prompts/marketing/highlight-unique-value-proposition-in-emails.md",
+    "source_lines": [
+      2036,
+      2044
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Star Story Solution framework for email marketing",
+    "slug": "use-star-story-solution-framework-for-email-marketing",
+    "category": "marketing",
+    "output": "prompts/marketing/use-star-story-solution-framework-for-email-marketing.md",
+    "source_lines": [
+      2045,
+      2051
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Better decision making using AI",
+    "slug": "better-decision-making-using-ai",
+    "category": "business",
+    "output": "prompts/business/better-decision-making-using-ai.md",
+    "source_lines": [
+      2052,
+      2058
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Brainstorm Influencer Marketing ideas using AI",
+    "slug": "brainstorm-influencer-marketing-ideas-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/brainstorm-influencer-marketing-ideas-using-ai.md",
+    "source_lines": [
+      2059,
+      2065
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Implement \"Picture-Promise-Prove-Push\" framework in your email marketing",
+    "slug": "implement-picture-promise-prove-push-framework-in-your",
+    "category": "marketing",
+    "output": "prompts/marketing/implement-picture-promise-prove-push-framework-in-your.md",
+    "source_lines": [
+      2066,
+      2074
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Get multiple perspectives for your problem",
+    "slug": "get-multiple-perspectives-for-your-problem",
+    "category": "business",
+    "output": "prompts/business/get-multiple-perspectives-for-your-problem.md",
+    "source_lines": [
+      2075,
+      2083
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create pricing options for your product line",
+    "slug": "create-pricing-options-for-your-product-line",
+    "category": "business",
+    "output": "prompts/business/create-pricing-options-for-your-product-line.md",
+    "source_lines": [
+      2084,
+      2096
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Cite your sources",
+    "slug": "cite-your-sources",
+    "category": "writing",
+    "output": "prompts/writing/cite-your-sources.md",
+    "source_lines": [
+      2097,
+      2118
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Learn complex topics simply",
+    "slug": "learn-complex-topics-simply",
+    "category": "education",
+    "output": "prompts/education/learn-complex-topics-simply.md",
+    "source_lines": [
+      2119,
+      2125
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create a detailed social media content strategy using AI",
+    "slug": "create-a-detailed-social-media-content-strategy-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/create-a-detailed-social-media-content-strategy-using-ai.md",
+    "source_lines": [
+      2126,
+      2145
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Replicate any writing style",
+    "slug": "replicate-any-writing-style",
+    "category": "content-creation",
+    "output": "prompts/content-creation/replicate-any-writing-style.md",
+    "source_lines": [
+      2146,
+      2160
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use emotions to your advantage in marketing",
+    "slug": "use-emotions-to-your-advantage-in-marketing",
+    "category": "marketing",
+    "output": "prompts/marketing/use-emotions-to-your-advantage-in-marketing.md",
+    "source_lines": [
+      2161,
+      2171
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Find career pitfalls beforhand",
+    "slug": "find-career-pitfalls-beforhand",
+    "category": "business",
+    "output": "prompts/business/find-career-pitfalls-beforhand.md",
+    "source_lines": [
+      2172,
+      2178
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Build resumes using AI",
+    "slug": "build-resumes-using-ai",
+    "category": "business",
+    "output": "prompts/business/build-resumes-using-ai.md",
+    "source_lines": [
+      2179,
+      2187
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Turn any piece of text into any writing style",
+    "slug": "turn-any-piece-of-text-into-any-writing-style",
+    "category": "content-creation",
+    "output": "prompts/content-creation/turn-any-piece-of-text-into-any-writing-style.md",
+    "source_lines": [
+      2188,
+      2198
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Ideas to earn more money with your skills",
+    "slug": "ideas-to-earn-more-money-with-your-skills",
+    "category": "business",
+    "output": "prompts/business/ideas-to-earn-more-money-with-your-skills.md",
+    "source_lines": [
+      2199,
+      2207
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Earn with your skils and a budget",
+    "slug": "earn-with-your-skils-and-a-budget",
+    "category": "business",
+    "output": "prompts/business/earn-with-your-skils-and-a-budget.md",
+    "source_lines": [
+      2208,
+      2216
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Analyze pros/cons of a decision",
+    "slug": "analyze-pros-cons-of-a-decision",
+    "category": "business",
+    "output": "prompts/business/analyze-pros-cons-of-a-decision.md",
+    "source_lines": [
+      2217,
+      2225
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Improve your business model",
+    "slug": "improve-your-business-model",
+    "category": "business",
+    "output": "prompts/business/improve-your-business-model.md",
+    "source_lines": [
+      2226,
+      2234
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Translate ad copy into other languages",
+    "slug": "translate-ad-copy-into-other-languages",
+    "category": "marketing",
+    "output": "prompts/marketing/translate-ad-copy-into-other-languages.md",
+    "source_lines": [
+      2235,
+      2245
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write update emails about a project using AI",
+    "slug": "write-update-emails-about-a-project-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-update-emails-about-a-project-using-ai.md",
+    "source_lines": [
+      2246,
+      2260
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Upsell using email marketing",
+    "slug": "upsell-using-email-marketing",
+    "category": "marketing",
+    "output": "prompts/marketing/upsell-using-email-marketing.md",
+    "source_lines": [
+      2261,
+      2269
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Get more referrals using AI ideas",
+    "slug": "get-more-referrals-using-ai-ideas",
+    "category": "marketing",
+    "output": "prompts/marketing/get-more-referrals-using-ai-ideas.md",
+    "source_lines": [
+      2270,
+      2276
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Answer product objections and win customers using AI",
+    "slug": "answer-product-objections-and-win-customers-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/answer-product-objections-and-win-customers-using-ai.md",
+    "source_lines": [
+      2277,
+      2283
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Get best meta descriptions for your website",
+    "slug": "get-best-meta-descriptions-for-your-website",
+    "category": "marketing",
+    "output": "prompts/marketing/get-best-meta-descriptions-for-your-website.md",
+    "source_lines": [
+      2284,
+      2292
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate long tail keywords for your website",
+    "slug": "generate-long-tail-keywords-for-your-website",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-long-tail-keywords-for-your-website.md",
+    "source_lines": [
+      2293,
+      2301
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Increase organic traffic for your website",
+    "slug": "increase-organic-traffic-for-your-website",
+    "category": "marketing",
+    "output": "prompts/marketing/increase-organic-traffic-for-your-website.md",
+    "source_lines": [
+      2302,
+      2308
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create taglines for your product",
+    "slug": "create-taglines-for-your-product",
+    "category": "marketing",
+    "output": "prompts/marketing/create-taglines-for-your-product.md",
+    "source_lines": [
+      2309,
+      2315
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Ambient Advertising for your product",
+    "slug": "ambient-advertising-for-your-product",
+    "category": "marketing",
+    "output": "prompts/marketing/ambient-advertising-for-your-product.md",
+    "source_lines": [
+      2316,
+      2322
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Design your business card",
+    "slug": "design-your-business-card",
+    "category": "business",
+    "output": "prompts/business/design-your-business-card.md",
+    "source_lines": [
+      2323,
+      2329
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Brainstorm affiliate revenue ideas for your product",
+    "slug": "brainstorm-affiliate-revenue-ideas-for-your-product",
+    "category": "marketing",
+    "output": "prompts/marketing/brainstorm-affiliate-revenue-ideas-for-your-product.md",
+    "source_lines": [
+      2330,
+      2336
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Repurpose your content for other platforms",
+    "slug": "repurpose-your-content-for-other-platforms",
+    "category": "marketing",
+    "output": "prompts/marketing/repurpose-your-content-for-other-platforms.md",
+    "source_lines": [
+      2337,
+      2349
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Brainstorm sales strategies for your business",
+    "slug": "brainstorm-sales-strategies-for-your-business",
+    "category": "marketing",
+    "output": "prompts/marketing/brainstorm-sales-strategies-for-your-business.md",
+    "source_lines": [
+      2350,
+      2359
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Analyse startup problems and solutions",
+    "slug": "analyse-startup-problems-and-solutions",
+    "category": "business",
+    "output": "prompts/business/analyse-startup-problems-and-solutions.md",
+    "source_lines": [
+      2360,
+      2370
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Improve employee retention using AI",
+    "slug": "improve-employee-retention-using-ai",
+    "category": "business",
+    "output": "prompts/business/improve-employee-retention-using-ai.md",
+    "source_lines": [
+      2371,
+      2382
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write press release using AI",
+    "slug": "write-press-release-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-press-release-using-ai.md",
+    "source_lines": [
+      2383,
+      2393
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write cold emails using AI",
+    "slug": "write-cold-emails-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-cold-emails-using-ai.md",
+    "source_lines": [
+      2394,
+      2408
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write landing page descriptions using AI",
+    "slug": "write-landing-page-descriptions-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-landing-page-descriptions-using-ai.md",
+    "source_lines": [
+      2409,
+      2419
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Assign tasks to the right skilled employee",
+    "slug": "assign-tasks-to-the-right-skilled-employee",
+    "category": "business",
+    "output": "prompts/business/assign-tasks-to-the-right-skilled-employee.md",
+    "source_lines": [
+      2420,
+      2431
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Apply book frameworks for your business",
+    "slug": "apply-book-frameworks-for-your-business",
+    "category": "business",
+    "output": "prompts/business/apply-book-frameworks-for-your-business.md",
+    "source_lines": [
+      2432,
+      2444
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Design the user experience for your website.",
+    "slug": "design-the-user-experience-for-your-website",
+    "category": "business",
+    "output": "prompts/business/design-the-user-experience-for-your-website.md",
+    "source_lines": [
+      2445,
+      2453
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Test Claude skills in Interviews",
+    "slug": "test-claude-skills-in-interviews",
+    "category": "business",
+    "output": "prompts/business/test-claude-skills-in-interviews.md",
+    "source_lines": [
+      2454,
+      2466
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Find what your customer wants",
+    "slug": "find-what-your-customer-wants",
+    "category": "business",
+    "output": "prompts/business/find-what-your-customer-wants.md",
+    "source_lines": [
+      2467,
+      2473
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create Claude Prompts using Claude",
+    "slug": "create-claude-prompts-using-claude",
+    "category": "prompt-engineering",
+    "output": "prompts/prompt-engineering/create-claude-prompts-using-claude.md",
+    "source_lines": [
+      2474,
+      2487
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Perform competitor analysis using AI",
+    "slug": "perform-competitor-analysis-using-ai",
+    "category": "business",
+    "output": "prompts/business/perform-competitor-analysis-using-ai.md",
+    "source_lines": [
+      2488,
+      2496
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate rebranding strategies using AI",
+    "slug": "generate-rebranding-strategies-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-rebranding-strategies-using-ai.md",
+    "source_lines": [
+      2497,
+      2511
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate ad script and ad creative ideas using Ai",
+    "slug": "generate-ad-script-and-ad-creative-ideas-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-ad-script-and-ad-creative-ideas-using-ai.md",
+    "source_lines": [
+      2512,
+      2522
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate giveaway ideas using Claude",
+    "slug": "generate-giveaway-ideas-using-claude",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-giveaway-ideas-using-claude.md",
+    "source_lines": [
+      2523,
+      2529
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write launch speeches fro your new business",
+    "slug": "write-launch-speeches-fro-your-new-business",
+    "category": "marketing",
+    "output": "prompts/marketing/write-launch-speeches-fro-your-new-business.md",
+    "source_lines": [
+      2530,
+      2536
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write thank you letters for your customers using AI",
+    "slug": "write-thank-you-letters-for-your-customers-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/write-thank-you-letters-for-your-customers-using-ai.md",
+    "source_lines": [
+      2537,
+      2545
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Get solutions from a CEO to your problems",
+    "slug": "get-solutions-from-a-ceo-to-your-problems",
+    "category": "business",
+    "output": "prompts/business/get-solutions-from-a-ceo-to-your-problems.md",
+    "source_lines": [
+      2546,
+      2552
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create guest lectures using AI",
+    "slug": "create-guest-lectures-using-ai",
+    "category": "business",
+    "output": "prompts/business/create-guest-lectures-using-ai.md",
+    "source_lines": [
+      2553,
+      2567
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create interview challenges using AI",
+    "slug": "create-interview-challenges-using-ai",
+    "category": "business",
+    "output": "prompts/business/create-interview-challenges-using-ai.md",
+    "source_lines": [
+      2568,
+      2575
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Apply Blue Ocean Strategy to your business",
+    "slug": "apply-blue-ocean-strategy-to-your-business",
+    "category": "business",
+    "output": "prompts/business/apply-blue-ocean-strategy-to-your-business.md",
+    "source_lines": [
+      2576,
+      2591
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Expand product lineups to attract more customers using AI",
+    "slug": "expand-product-lineups-to-attract-more-customers-using-ai",
+    "category": "business",
+    "output": "prompts/business/expand-product-lineups-to-attract-more-customers-using-ai.md",
+    "source_lines": [
+      2592,
+      2599
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Increase your product value for more retention",
+    "slug": "increase-your-product-value-for-more-retention",
+    "category": "business",
+    "output": "prompts/business/increase-your-product-value-for-more-retention.md",
+    "source_lines": [
+      2600,
+      2608
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Business ideas for your skill",
+    "slug": "business-ideas-for-your-skill",
+    "category": "business",
+    "output": "prompts/business/business-ideas-for-your-skill.md",
+    "source_lines": [
+      2609,
+      2615
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write replies to your reviews using Claude",
+    "slug": "write-replies-to-your-reviews-using-claude",
+    "category": "business",
+    "output": "prompts/business/write-replies-to-your-reviews-using-claude.md",
+    "source_lines": [
+      2616,
+      2622
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create metaphors using Claude",
+    "slug": "create-metaphors-using-claude",
+    "category": "creative",
+    "output": "prompts/creative/create-metaphors-using-claude.md",
+    "source_lines": [
+      2623,
+      2629
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate high-fidelity structural metaphors using Claude",
+    "slug": "generate-high-fidelity-structural-metaphors-using-claude",
+    "category": "writing",
+    "output": "prompts/writing/generate-high-fidelity-structural-metaphors-using-claude.md",
+    "source_lines": [
+      2630,
+      2667
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Plan your trip using AI",
+    "slug": "plan-your-trip-using-ai",
+    "category": "business",
+    "output": "prompts/business/plan-your-trip-using-ai.md",
+    "source_lines": [
+      2668,
+      2675
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Make Claude your writing assistant",
+    "slug": "make-claude-your-writing-assistant",
+    "category": "content-creation",
+    "output": "prompts/content-creation/make-claude-your-writing-assistant.md",
+    "source_lines": [
+      2676,
+      2685
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Handle sales calls using AI",
+    "slug": "handle-sales-calls-using-ai",
+    "category": "business",
+    "output": "prompts/business/handle-sales-calls-using-ai.md",
+    "source_lines": [
+      2686,
+      2694
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write follow up emails using AI",
+    "slug": "write-follow-up-emails-using-ai",
+    "category": "business",
+    "output": "prompts/business/write-follow-up-emails-using-ai.md",
+    "source_lines": [
+      2695,
+      2701
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write speeches that motivate using AI",
+    "slug": "write-speeches-that-motivate-using-ai",
+    "category": "content-creation",
+    "output": "prompts/content-creation/write-speeches-that-motivate-using-ai.md",
+    "source_lines": [
+      2702,
+      2711
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write product descriptions using AI",
+    "slug": "write-product-descriptions-using-ai",
+    "category": "content-creation",
+    "output": "prompts/content-creation/write-product-descriptions-using-ai.md",
+    "source_lines": [
+      2712,
+      2720
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Apply Reciprocity Bias using AI",
+    "slug": "apply-reciprocity-bias-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/apply-reciprocity-bias-using-ai.md",
+    "source_lines": [
+      2721,
+      2728
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create marketing Strategies using AI",
+    "slug": "create-marketing-strategies-using-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/create-marketing-strategies-using-ai.md",
+    "source_lines": [
+      2729,
+      2742
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to generate \"about\" Section",
+    "slug": "use-claude-to-generate-about-section",
+    "category": "marketing",
+    "output": "prompts/marketing/use-claude-to-generate-about-section.md",
+    "source_lines": [
+      2743,
+      2749
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to create a business model",
+    "slug": "use-claude-to-create-a-business-model",
+    "category": "business",
+    "output": "prompts/business/use-claude-to-create-a-business-model.md",
+    "source_lines": [
+      2750,
+      2757
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Find amazing domain names for your business using Claude",
+    "slug": "find-amazing-domain-names-for-your-business-using-claude",
+    "category": "business",
+    "output": "prompts/business/find-amazing-domain-names-for-your-business-using-claude.md",
+    "source_lines": [
+      2758,
+      2767
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use AI to create SEO keywords.",
+    "slug": "use-ai-to-create-seo-keywords",
+    "category": "marketing",
+    "output": "prompts/marketing/use-ai-to-create-seo-keywords.md",
+    "source_lines": [
+      2768,
+      2776
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Plan your stratergies like Alex Hormozi",
+    "slug": "plan-your-stratergies-like-alex-hormozi",
+    "category": "business",
+    "output": "prompts/business/plan-your-stratergies-like-alex-hormozi.md",
+    "source_lines": [
+      2777,
+      2787
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate questions to recruit top talent using Claude",
+    "slug": "generate-questions-to-recruit-top-talent-using-claude",
+    "category": "business",
+    "output": "prompts/business/generate-questions-to-recruit-top-talent-using-claude.md",
+    "source_lines": [
+      2788,
+      2796
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Save time writing youTube scripts with AI",
+    "slug": "save-time-writing-youtube-scripts-with-ai",
+    "category": "marketing",
+    "output": "prompts/marketing/save-time-writing-youtube-scripts-with-ai.md",
+    "source_lines": [
+      2797,
+      2805
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use AI to get instagram story ideas",
+    "slug": "use-ai-to-get-instagram-story-ideas",
+    "category": "marketing",
+    "output": "prompts/marketing/use-ai-to-get-instagram-story-ideas.md",
+    "source_lines": [
+      2806,
+      2812
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write sales copy with the desired tone to your product",
+    "slug": "write-sales-copy-with-the-desired-tone-to-your-product",
+    "category": "marketing",
+    "output": "prompts/marketing/write-sales-copy-with-the-desired-tone-to-your-product.md",
+    "source_lines": [
+      2813,
+      2824
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use AIDA to convert customers with Claude",
+    "slug": "use-aida-to-convert-customers-with-claude",
+    "category": "marketing",
+    "output": "prompts/marketing/use-aida-to-convert-customers-with-claude.md",
+    "source_lines": [
+      2825,
+      2831
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create impactful marketing campaigns",
+    "slug": "create-impactful-marketing-campaigns",
+    "category": "marketing",
+    "output": "prompts/marketing/create-impactful-marketing-campaigns.md",
+    "source_lines": [
+      2832,
+      2836
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Find the best way to connect with your customers",
+    "slug": "find-the-best-way-to-connect-with-your-customers",
+    "category": "marketing",
+    "output": "prompts/marketing/find-the-best-way-to-connect-with-your-customers.md",
+    "source_lines": [
+      2837,
+      2843
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to find CTA ideas",
+    "slug": "use-claude-to-find-cta-ideas",
+    "category": "marketing",
+    "output": "prompts/marketing/use-claude-to-find-cta-ideas.md",
+    "source_lines": [
+      2844,
+      2854
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate Unique Product Title Ideas using Claude",
+    "slug": "generate-unique-product-title-ideas-using-claude",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-unique-product-title-ideas-using-claude.md",
+    "source_lines": [
+      2855,
+      2861
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Build a schedule plan",
+    "slug": "build-a-schedule-plan",
+    "category": "business",
+    "output": "prompts/business/build-a-schedule-plan.md",
+    "source_lines": [
+      2862,
+      2868
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Consult Steve Jobs and Elon Musk",
+    "slug": "consult-steve-jobs-and-elon-musk",
+    "category": "business",
+    "output": "prompts/business/consult-steve-jobs-and-elon-musk.md",
+    "source_lines": [
+      2869,
+      2877
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Write terms and conditions to your product using Claude",
+    "slug": "write-terms-and-conditions-to-your-product-using-claude",
+    "category": "business",
+    "output": "prompts/business/write-terms-and-conditions-to-your-product-using-claude.md",
+    "source_lines": [
+      2878,
+      2882
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Find how to recruit top talent using Claude",
+    "slug": "find-how-to-recruit-top-talent-using-claude",
+    "category": "business",
+    "output": "prompts/business/find-how-to-recruit-top-talent-using-claude.md",
+    "source_lines": [
+      2883,
+      2887
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Create a social media plan using Claude",
+    "slug": "create-a-social-media-plan-using-claude",
+    "category": "marketing",
+    "output": "prompts/marketing/create-a-social-media-plan-using-claude.md",
+    "source_lines": [
+      2888,
+      2892
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Convert text to tables using Claude",
+    "slug": "convert-text-to-tables-using-claude",
+    "category": "writing",
+    "output": "prompts/writing/convert-text-to-tables-using-claude.md",
+    "source_lines": [
+      2893,
+      2899
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Make Claude Write Like You",
+    "slug": "make-claude-write-like-you",
+    "category": "content-creation",
+    "output": "prompts/content-creation/make-claude-write-like-you.md",
+    "source_lines": [
+      2900,
+      2906
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Get GIFs in Claude",
+    "slug": "get-gifs-in-claude",
+    "category": "content-creation",
+    "output": "prompts/content-creation/get-gifs-in-claude.md",
+    "source_lines": [
+      2907,
+      2919
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to write your blogs",
+    "slug": "use-claude-to-write-your-blogs",
+    "category": "content-creation",
+    "output": "prompts/content-creation/use-claude-to-write-your-blogs.md",
+    "source_lines": [
+      2920,
+      2928
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Know more about your customers using Claude",
+    "slug": "know-more-about-your-customers-using-claude",
+    "category": "business",
+    "output": "prompts/business/know-more-about-your-customers-using-claude.md",
+    "source_lines": [
+      2929,
+      2935
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to write python scripts",
+    "slug": "use-claude-to-write-python-scripts",
+    "category": "technical",
+    "output": "prompts/technical/use-claude-to-write-python-scripts.md",
+    "source_lines": [
+      2936,
+      2940
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Learn things much faster using AI",
+    "slug": "learn-things-much-faster-using-ai",
+    "category": "education",
+    "output": "prompts/education/learn-things-much-faster-using-ai.md",
+    "source_lines": [
+      2941,
+      2947
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Generate Email Subject Lines",
+    "slug": "generate-email-subject-lines",
+    "category": "marketing",
+    "output": "prompts/marketing/generate-email-subject-lines.md",
+    "source_lines": [
+      2948,
+      2960
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Simulate A Job Interview",
+    "slug": "simulate-a-job-interview",
+    "category": "education",
+    "output": "prompts/education/simulate-a-job-interview.md",
+    "source_lines": [
+      2961,
+      2965
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Learn a new topic using AI",
+    "slug": "learn-a-new-topic-using-ai",
+    "category": "education",
+    "output": "prompts/education/learn-a-new-topic-using-ai.md",
+    "source_lines": [
+      2966,
+      2972
+    ],
+    "warnings": []
+  },
+  {
+    "title": "Use Claude to answer frequently asked questions",
+    "slug": "use-claude-to-answer-frequently-asked-questions",
+    "category": "business",
+    "output": "prompts/business/use-claude-to-answer-frequently-asked-questions.md",
+    "source_lines": [
+      2973,
+      2980
+    ],
+    "warnings": []
+  }
+]
